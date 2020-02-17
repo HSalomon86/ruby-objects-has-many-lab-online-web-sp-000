@@ -16,6 +16,6 @@ class Author
  end
 
   def posts
-    @posts
+    @posts = Post.all
   end
 end
