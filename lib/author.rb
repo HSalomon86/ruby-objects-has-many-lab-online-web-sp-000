@@ -25,6 +25,7 @@ end
   def self.post_count
     @@post_count
   end
+  
   def posts
     @posts = Post.all
   end
